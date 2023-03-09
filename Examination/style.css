@@ -51,24 +51,16 @@ body {
 
 nav {
     display: flex;
-    justify-content: center; /* Centrera horisontellt */
+    justify-content: center;
 }
 
-nav a:link {
+nav a {
     color: #EEEEEE;
     margin: 10px;
     text-decoration: none;
-
 }
 
-nav a:visited {
-    color: #EEEEEE;
-}
-
-nav a:hover {
-    color: #C3A007;
-}
-
+nav a:hover,
 nav a:active {
     color: #C3A007;
 }
@@ -104,22 +96,40 @@ main {
     flex-direction: column;
 }
 
-.project-description{
+.project-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
-.project-description img{
+.project-description img {
     max-width: 30%;
     height: auto;
 }
 
 .project-description ol {
     list-style: upper-roman;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.kontakt-uppgifter {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+
+.my-iframe {
+    width: 40%;
 }
 
 main h1 {
@@ -130,3 +140,4 @@ main h1 {
     margin-bottom: 10px;
     line-height: 30px;
 }
+
