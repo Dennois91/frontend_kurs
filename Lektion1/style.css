@@ -1,0 +1,36 @@
+body {
+    border: 1px solid #ff0000;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+main {
+    border: 1px solid #008000;
+    padding: 1rem;
+}
+
+.wrapper {
+    border: 1px solid #0000ff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-color-margin {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #FA8072FF;
+}
+
+.subHeader-color-margin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #FA8072FF;
+}
+
+.list-reduce-top-margin {
+    margin-top: 5px;
+}
